@@ -1,0 +1,33 @@
+# PyTorch - for building and training the CNN model
+torch
+
+# TorchVision - for loading datasets like CIFAR-10 and performing data transformations
+torchvision
+
+# Matplotlib - for visualizing training progress
+matplotlib
+
+# NumPy - for numerical operations and array manipulations
+numpy
+
+# tqdm - for showing progress bars during training (optional but useful)
+tqdm
+
+# Pillow - for handling image transformations in TorchVision
+Pillow
+
+# PyTest - for running unit tests to validate model performance
+pytest
+
+# Docker - (Optional) only if managing the project locally via Docker in the CI/CD pipeline
+# If deploying with Docker, Docker should be installed on the host machine, not through Python
+# But we list it here for completeness if needed in the local dev setup
+
+# boto3 - (Optional) AWS SDK for Python, required if you're deploying the model to AWS S3
+# boto3
+
+# FastAPI - (Optional) for serving the model via an API in deployment
+# fastapi
+
+# Uvicorn - (Optional) ASGI server for serving the FastAPI app
+# uvicorn
